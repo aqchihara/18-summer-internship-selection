@@ -76,7 +76,9 @@
                                 data-sort-order="{{$sort_key !== 'birthday'?'both':$sort_order}}" scope="col">誕生日
                             </th>
                             <th scope="col">年齢</th>
-                            <th scope="col">入社日</th>
+                            <th class="sorting" data-sort-key="hire_date"
+                                data-sort-order="{{$sort_key !== 'hire_date'?'both':$sort_order}}" scope="col">入社日
+                            </th>
                         </tr>
                         </thead>
                         <tbody>
@@ -92,7 +94,7 @@
                                 <td>{{$employee->position->name}}</td>
                                 <td>{{$employee->birthday_jp}}</td>
                                 <td>{{$employee->age}}歳</td>
-                                <td>{{$employee->hire_date}}</td>
+                                <td>{{$employee->hire_date_jp}}</td>
                             </tr>
                         @endforeach
                         </tbody>
@@ -109,5 +111,6 @@
                 + "&sort_key=" + $(this).data("sort-key")
                 + "&sort_order=" + swith_dic[$(this).data("sort-order")];
         });
+
     </script>
 @endsection
