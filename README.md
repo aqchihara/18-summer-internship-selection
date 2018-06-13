@@ -20,7 +20,7 @@
 1. ■バグfix課題  
 ◆基本的な流れ  
 bug_01_sampleをチェックアウト  
-bug_01_sample_takeru_chihara　※(bug_01_sumple_あなたの名_あなたの性)  でブランチを作成してください。
+bug_01_sample_takeru_chihara　※(bug_01_sumple_あなたの名_あなたの性)  でブランチを作成してください。  
 バグを修正する  
 bug_01_sampleにプルリクエストを送信する  
 上記を繰り返す  
