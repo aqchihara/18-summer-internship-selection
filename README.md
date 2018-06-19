@@ -1,8 +1,12 @@
 # 18-summer-internship-selection
 
-1. XAMPP インストール
-1. Composer インストール
-1. SourceTree インストール
+1. XAMPP インストール  
+    1. https://www.apachefriends.org/jp/download.html  
+    ※MACユーザは、XAMPPとXAMPP-VMがありますが、XAMPPをダウンロードしてください。
+1. Composer インストール  
+    1. https://getcomposer.org
+1. SourceTree インストール  
+    1. https://ja.atlassian.com/software/sourcetree  
 1. 本リポジトリをクローン（置く場所をXAMPPのhtdocにする）
 1. httpd.confの編集
     1. DocumentRootを右記に変更 C:xampp/htdocs/プロジェクト名/public
