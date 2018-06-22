@@ -29,7 +29,7 @@ bug_01_sample_takeru_chihara　※(bug_01_sumple_あなたの名_あなたの性
 bug_01_sampleにプルリクエストを送信する  
 上記を繰り返す  
   
-参考　LaravelReadouble https://readouble.com/laravel/5.6/ja/
+参考　LaravelReadouble https://readouble.com/laravel/5.5/ja/
 
 ---
 ◆修正内容  
