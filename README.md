@@ -2,24 +2,28 @@
 
 1. XAMPP インストール  
     1. https://www.apachefriends.org/jp/download.html  
-    ※MACユーザは、XAMPPとXAMPP-VMがありますが、XAMPPをダウンロードしてください。
+    ※MACユーザは、XAMPPとXAMPP-VMがありますが、XAMPPをダウンロードしてください。(今回のバージョンは7.2.6とします。)
 1. Composer インストール  
     1. https://getcomposer.org
 1. SourceTree インストール  
     1. https://ja.atlassian.com/software/sourcetree  
+    (ATLASSIANアカウントを持ってない方は新規作成を行なってください)  
 1. 本リポジトリをクローン（置く場所をXAMPPのhtdocにする）
 1. httpd.confの編集
     1. DocumentRootを右記に変更 C:xampp/htdocs/プロジェクト名/public
 1. XAMPP のphpMyAdminからログインし、「asiaquest」というDBを作る
-1. .envの編集
-    1. 【mysql】※xamppのmysql初期設定ユーザです。  
-    user: 'root'  
-    password: ''
+1. .envの編集  
+    1. .env.exampleを複製し、.envに名前変更
+    1. .envファイルを以下のように編集  
+       DB_DATABASE=asiaquest  
+       DB_USERNAME=root  
+       DB_PASSWORD=  
 1. ターミナルを起動し、アプリケーションを配置したディレクトリに移動する
 1. 「composer install」コマンドを実行する
 1. 「composer dump-autoload」を実行する
 1. 「php artisan migrate --seed 」を実行する
 1. 「php artisan key:generate 」を実行する
+1. ※Macは、「chmod -R 777 storage/」を実行する
 1. デモの画面が表示されることの確認
 1. ■バグfix課題  
 ◆基本的な流れ  
