@@ -10,7 +10,7 @@
     (ATLASSIANアカウントを持ってない方は新規作成を行なってください)  
 1. 本リポジトリをクローン（置く場所をXAMPPのhtdocにする）
 1. httpd.confの編集
-    1. DocumentRootを右記に変更 C:xampp/htdocs/プロジェクト名/public
+    1. DocumentRootを右記に変更 C:/xampp/htdocs/プロジェクト名/public
 1. XAMPP のphpMyAdminからログインし、「asiaquest」というDBを作る
 1. .envの編集  
     1. .env.exampleを複製し、.envに名前変更
