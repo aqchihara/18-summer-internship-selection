@@ -87,11 +87,11 @@
                                 <td>{{$employee->given_name}}</td>
                                 <td>{{$employee->family_name_kana}}</td>
                                 <td>{{$employee->given_name_kana}}</td>
-                                <td>{{$employee->課->部->name}}</td>
-                                <td>{{$employee->課->name}}</td>
-                                <td>{{$employee->役職->name}}</td>
+                                <td>{{$employee->division->department->name}}</td>
+                                <td>{{$employee->division->name}}</td>
+                                <td>{{$employee->position->name}}</td>
                                 <td>{{$employee->birthday_jp}}</td>
-                                <td>{{$employee->age}}歳</td>
+                                <td>{{$employee->age}}</td>
                                 <td>{{$employee->hire_date_jp}}</td>
                             </tr>
                         @endforeach
